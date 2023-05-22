@@ -60,7 +60,7 @@ sudo wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-8.6.
 sudo apt-get -y install unzip
 sudo unzip sonarqube*.zip -d /opt
 
-sudo mv /opt/sonarqube-8.6.0.39681 /opt/sonarqube -v
+sudo mv /opt/sonarqube-8.6.0.39681 /opt/sonarqube -v { Rename the sonar}
 
 Create Group and User:
 sudo groupadd sonarGroup
